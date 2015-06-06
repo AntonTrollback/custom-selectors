@@ -27,7 +27,7 @@ $ npm install custom-selectors
   opacity: 0.5;
 }
 
-``
+```
 
 ```css
 *,
