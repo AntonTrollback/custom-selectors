@@ -54,4 +54,4 @@ $ npm install custom-selectors
 .Button:active {
   opacity: 0.5;
 }
-``
+```
