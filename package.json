@@ -1,0 +1,24 @@
+{
+  "name": "custom-selectors",
+  "version": "0.1.0",
+  "description": "A set of general CSS custom selectors",
+  "keywords": [
+    "css",
+    "selectors",
+    "custom-selector",
+    "custom selector",
+    "custom selectors",
+    "custom-selectors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antontrollback/custom-selectors.git"
+  },
+  "author": "Anton Trollbäck",
+  "license": "MIT",
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "index.css"
+  ]
+}

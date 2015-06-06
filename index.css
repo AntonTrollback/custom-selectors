@@ -1,0 +1,58 @@
+/**
+ * Custom selectors
+ */
+
+@custom-selector :--headings
+  h1, h2, h3, h4, h5, h6;
+
+@custom-selector :--sub-lists
+  ul ul, ol ol, ul ol, ol ul;
+
+@custom-selector :--embed-elements
+  canvas, embed, iframe, object;
+
+@custom-selector :--media-elements
+  audio, canvas, embed, iframe, img, object, video;
+
+/* Pseudo elements with aliases */
+
+@custom-selector :--pseudo-elements
+  :before, :after;
+
+@custom-selector :--before-after
+  :before, :after;
+
+@custom-selector :--after-before
+  :before, :after;
+
+/* Universial selector including pseudo elements */
+
+@custom-selector :--universal
+  *, *:before, *:after;
+
+/* Combined pointer pseudo selectors, with aliases */
+
+@custom-selector :--pointer-states
+  :active, :focus, :hover;
+
+@custom-selector :--active-hover :active, :hover;
+@custom-selector :--hover-active :active, :hover;
+@custom-selector :--active-focus :active, :focus;
+@custom-selector :--focus-active :active, :focus;
+
+@custom-selector :--focus-hover :focus, :hover;
+@custom-selector :--hover-focus :focus, :hover;
+@custom-selector :--focus-active :active, :focus;
+@custom-selector :--active-focus :active, :focus;
+
+@custom-selector :--hover-focus :focus, :hover;
+@custom-selector :--focus-hover :focus, :hover;
+@custom-selector :--hover-active :active, :hover;
+@custom-selector :--active-hover :active, :hover;
+
+@custom-selector :--active-hover-focus :active, :focus, :hover;
+@custom-selector :--active-focus-hover :active, :focus, :hover;
+@custom-selector :--focus-hover-active :active, :focus, :hover;
+@custom-selector :--focus-active-hover :active, :focus, :hover;
+@custom-selector :--hover-focus-active :active, :focus, :hover;
+@custom-selector :--hover-active-focus :active, :focus, :hover;
